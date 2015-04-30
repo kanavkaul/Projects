@@ -1,0 +1,11 @@
+The application, Contact Manager, is a desktop application which uses Java Swing.
+The application allows users to save the contact information.
+The contact information is then saved onto a .txt file (Contacts.txt) which can be retrieved into the application later.
+The user has the options to Add, Modify or Delete the details about a person.
+
+
+-----------------------------------------------------------------
+Instructions to run:
+-----------------------------------------------------------------
+	javac ContactManager.java
+	java ContactManager

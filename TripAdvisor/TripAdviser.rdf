@@ -1,0 +1,459 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY untitled-ontology-7 "http://www.semanticweb.org/user/ontologies/2015/3/untitled-ontology-7#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/user/ontologies/2015/3/untitled-ontology-7#"
+     xml:base="http://www.semanticweb.org/user/ontologies/2015/3/untitled-ontology-7"
+     xmlns:untitled-ontology-7="http://www.semanticweb.org/user/ontologies/2015/3/untitled-ontology-7#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/user/ontologies/2015/3/untitled-ontology-7"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2015/3/untitled-ontology-7#has_cityscape -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-7;has_cityscape"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2015/3/untitled-ontology-7#has_hall -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-7;has_hall"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2015/3/untitled-ontology-7#has_history_of_city -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-7;has_history_of_city"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2015/3/untitled-ontology-7#has_museum -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-7;has_museum"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2015/3/untitled-ontology-7#has_park -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-7;has_park"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2015/3/untitled-ontology-7#is_part_of -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-7;is_part_of"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2015/3/untitled-ontology-7#type_of_adventure -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-7;type_of_adventure"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2015/3/untitled-ontology-7#close_time -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-7;close_time"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2015/3/untitled-ontology-7#duration_of_visit -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-7;duration_of_visit">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2015/3/untitled-ontology-7#entry_fee -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-7;entry_fee">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2015/3/untitled-ontology-7#has_address -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-7;has_address">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2015/3/untitled-ontology-7#open_time -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-7;open_time"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2015/3/untitled-ontology-7#Art -->
+
+    <owl:Class rdf:about="&untitled-ontology-7;Art"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2015/3/untitled-ontology-7#Attraction -->
+
+    <owl:Class rdf:about="&untitled-ontology-7;Attraction"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2015/3/untitled-ontology-7#City_Attractions -->
+
+    <owl:Class rdf:about="&untitled-ontology-7;City_Attractions"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2015/3/untitled-ontology-7#History_of_City -->
+
+    <owl:Class rdf:about="&untitled-ontology-7;History_of_City"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2015/3/untitled-ontology-7#Leisure -->
+
+    <owl:Class rdf:about="&untitled-ontology-7;Leisure"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2015/3/untitled-ontology-7#Music -->
+
+    <owl:Class rdf:about="&untitled-ontology-7;Music"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2015/3/untitled-ontology-7#AT_T_Performing_Arts_Center -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-7;AT_T_Performing_Arts_Center">
+        <rdf:type rdf:resource="&untitled-ontology-7;City_Attractions"/>
+        <close_time rdf:datatype="&xsd;string">00:00</close_time>
+        <duration_of_visit rdf:datatype="&xsd;int">120</duration_of_visit>
+        <open_time rdf:datatype="&xsd;string">18:00</open_time>
+        <has_address rdf:datatype="&xsd;string">2520 Flora Street, Dallas, TX 75201</has_address>
+        <entry_fee rdf:datatype="&xsd;int">35</entry_fee>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2015/3/untitled-ontology-7#Adventure -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-7;Adventure">
+        <rdf:type rdf:resource="&untitled-ontology-7;Attraction"/>
+        <type_of_adventure rdf:resource="&untitled-ontology-7;Dallas_World_Aquarium"/>
+        <type_of_adventure rdf:resource="&untitled-ontology-7;Dallas_Zoo"/>
+        <type_of_adventure rdf:resource="&untitled-ontology-7;Six_Flags"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2015/3/untitled-ontology-7#Buckner_Park -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-7;Buckner_Park">
+        <rdf:type rdf:resource="&untitled-ontology-7;City_Attractions"/>
+        <entry_fee rdf:datatype="&xsd;int">0</entry_fee>
+        <open_time rdf:datatype="&xsd;string">06:00</open_time>
+        <close_time rdf:datatype="&xsd;string">23:00</close_time>
+        <has_address rdf:datatype="&xsd;string">4550 Worth St, Dallas, TX, 75246</has_address>
+        <duration_of_visit rdf:datatype="&xsd;int">60</duration_of_visit>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2015/3/untitled-ontology-7#Cityscape -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-7;Cityscape">
+        <rdf:type rdf:resource="&untitled-ontology-7;Attraction"/>
+        <has_cityscape rdf:resource="&untitled-ontology-7;Reunion_Tower"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2015/3/untitled-ontology-7#Concert -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-7;Concert">
+        <rdf:type rdf:resource="&untitled-ontology-7;Music"/>
+        <is_part_of rdf:resource="&untitled-ontology-7;AT_T_Performing_Arts_Center"/>
+        <is_part_of rdf:resource="&untitled-ontology-7;Verizon_Theatre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2015/3/untitled-ontology-7#DallasSkyline -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-7;DallasSkyline">
+        <rdf:type rdf:resource="&untitled-ontology-7;City_Attractions"/>
+        <is_part_of rdf:resource="&untitled-ontology-7;Reunion_Tower_Geo_Deck"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2015/3/untitled-ontology-7#Dallas_Heritage_Village -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-7;Dallas_Heritage_Village">
+        <rdf:type rdf:resource="&untitled-ontology-7;City_Attractions"/>
+        <entry_fee rdf:datatype="&xsd;int">10</entry_fee>
+        <open_time rdf:datatype="&xsd;string">10:00</open_time>
+        <has_address rdf:datatype="&xsd;string">1515 S Harwood St, Dallas, Texas, 75215</has_address>
+        <close_time rdf:datatype="&xsd;string">18:00</close_time>
+        <duration_of_visit rdf:datatype="&xsd;int">90</duration_of_visit>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2015/3/untitled-ontology-7#Dallas_Museum -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-7;Dallas_Museum">
+        <rdf:type rdf:resource="&untitled-ontology-7;City_Attractions"/>
+        <open_time rdf:datatype="&xsd;string">10:00</open_time>
+        <duration_of_visit rdf:datatype="&xsd;int">120</duration_of_visit>
+        <has_address rdf:datatype="&xsd;string">1717 North Harwood St, Dallas, Texas, 75201</has_address>
+        <close_time rdf:datatype="&xsd;string">20:00</close_time>
+        <entry_fee rdf:datatype="&xsd;int">8</entry_fee>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2015/3/untitled-ontology-7#Dallas_World_Aquarium -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-7;Dallas_World_Aquarium">
+        <rdf:type rdf:resource="&untitled-ontology-7;City_Attractions"/>
+        <open_time rdf:datatype="&xsd;string">09:00</open_time>
+        <close_time rdf:datatype="&xsd;string">17:00</close_time>
+        <has_address rdf:datatype="&xsd;string">1801 N Griffin St, Dallas, TX, 75202</has_address>
+        <entry_fee rdf:datatype="&xsd;int">30</entry_fee>
+        <duration_of_visit rdf:datatype="&xsd;int">4</duration_of_visit>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2015/3/untitled-ontology-7#Dallas_Zoo -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-7;Dallas_Zoo">
+        <rdf:type rdf:resource="&untitled-ontology-7;City_Attractions"/>
+        <open_time rdf:datatype="&xsd;string">09:00</open_time>
+        <close_time rdf:datatype="&xsd;string">17:00</close_time>
+        <entry_fee rdf:datatype="&xsd;int">35</entry_fee>
+        <duration_of_visit rdf:datatype="&xsd;int">5</duration_of_visit>
+        <has_address rdf:datatype="&xsd;string">650 S R L Thornton Fwy, Dallas, TX , 75203</has_address>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2015/3/untitled-ontology-7#Dining -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-7;Dining">
+        <rdf:type rdf:resource="&untitled-ontology-7;Leisure"/>
+        <is_part_of rdf:resource="&untitled-ontology-7;Reunion_Tower"/>
+        <is_part_of rdf:resource="&untitled-ontology-7;Rosewood_Mansion"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2015/3/untitled-ontology-7#Hall -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-7;Hall">
+        <rdf:type rdf:resource="&untitled-ontology-7;Attraction"/>
+        <has_hall rdf:resource="&untitled-ontology-7;AT_T_Performing_Arts_Center"/>
+        <has_hall rdf:resource="&untitled-ontology-7;Verizon_Theatre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2015/3/untitled-ontology-7#Klyde_Warren_Park -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-7;Klyde_Warren_Park">
+        <rdf:type rdf:resource="&untitled-ontology-7;City_Attractions"/>
+        <open_time rdf:datatype="&xsd;string">06:00</open_time>
+        <has_address rdf:datatype="&xsd;string">2012 Woodall Rodgers Freeway, Suite 403, Dallas,Texas, 75201</has_address>
+        <close_time rdf:datatype="&xsd;string">23:00</close_time>
+        <entry_fee rdf:datatype="&xsd;int">5</entry_fee>
+        <duration_of_visit rdf:datatype="&xsd;int">60</duration_of_visit>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2015/3/untitled-ontology-7#Meadows_Museum -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-7;Meadows_Museum">
+        <rdf:type rdf:resource="&untitled-ontology-7;City_Attractions"/>
+        <open_time rdf:datatype="&xsd;string">11:00</open_time>
+        <close_time rdf:datatype="&xsd;string">18:00</close_time>
+        <entry_fee rdf:datatype="&xsd;int">25</entry_fee>
+        <duration_of_visit rdf:datatype="&xsd;int">3</duration_of_visit>
+        <has_address rdf:datatype="&xsd;string">5900 Bishop Blvd, Dallas, TX, 75275</has_address>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2015/3/untitled-ontology-7#Museum -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-7;Museum">
+        <rdf:type rdf:resource="&untitled-ontology-7;Art"/>
+        <has_museum rdf:resource="&untitled-ontology-7;Meadows_Museum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2015/3/untitled-ontology-7#Park -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-7;Park">
+        <rdf:type rdf:resource="&untitled-ontology-7;Attraction"/>
+        <has_park rdf:resource="&untitled-ontology-7;Buckner_Park"/>
+        <has_park rdf:resource="&untitled-ontology-7;Klyde_Warren_Park"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2015/3/untitled-ontology-7#Places_of_Historical_Importance -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-7;Places_of_Historical_Importance">
+        <rdf:type rdf:resource="&untitled-ontology-7;History_of_City"/>
+        <has_history_of_city rdf:resource="&untitled-ontology-7;Dallas_Heritage_Village"/>
+        <has_history_of_city rdf:resource="&untitled-ontology-7;Sixth_Floor_Museum_at_Dealey_Plaza"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2015/3/untitled-ontology-7#Relax -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-7;Relax">
+        <rdf:type rdf:resource="&untitled-ontology-7;Leisure"/>
+        <is_part_of rdf:resource="&untitled-ontology-7;Park"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2015/3/untitled-ontology-7#Reunion_Tower -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-7;Reunion_Tower">
+        <rdf:type rdf:resource="&untitled-ontology-7;City_Attractions"/>
+        <open_time rdf:datatype="&xsd;string">11:00</open_time>
+        <close_time rdf:datatype="&xsd;string">15:00</close_time>
+        <duration_of_visit rdf:datatype="&xsd;int">30</duration_of_visit>
+        <has_address rdf:datatype="&xsd;string">300 Reunion Blvd East, Dallas,Texas, 75207</has_address>
+        <entry_fee rdf:datatype="&xsd;int">8</entry_fee>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2015/3/untitled-ontology-7#Reunion_Tower_Geo_Deck -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-7;Reunion_Tower_Geo_Deck">
+        <rdf:type rdf:resource="&untitled-ontology-7;City_Attractions"/>
+        <is_part_of rdf:resource="&untitled-ontology-7;Reunion_Tower"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2015/3/untitled-ontology-7#Rosewood_Mansion -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-7;Rosewood_Mansion">
+        <rdf:type rdf:resource="&untitled-ontology-7;City_Attractions"/>
+        <entry_fee rdf:datatype="&xsd;int">10</entry_fee>
+        <open_time rdf:datatype="&xsd;string">10:00</open_time>
+        <close_time rdf:datatype="&xsd;string">17:00</close_time>
+        <duration_of_visit rdf:datatype="&xsd;int">2</duration_of_visit>
+        <has_address rdf:datatype="&xsd;string">5900 Bishop Blvd, Dallas, TX, 75205</has_address>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2015/3/untitled-ontology-7#Six_Flags -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-7;Six_Flags">
+        <rdf:type rdf:resource="&untitled-ontology-7;City_Attractions"/>
+        <close_time rdf:datatype="&xsd;string">10:00</close_time>
+        <has_address rdf:datatype="&xsd;string">2201 Rd to Six Flags St E, Arlington, TX, 76011</has_address>
+        <open_time rdf:datatype="&xsd;string">23:00</open_time>
+        <duration_of_visit rdf:datatype="&xsd;int">6</duration_of_visit>
+        <entry_fee rdf:datatype="&xsd;int">70</entry_fee>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2015/3/untitled-ontology-7#Sixth_Floor_Museum_at_Dealey_Plaza -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-7;Sixth_Floor_Museum_at_Dealey_Plaza">
+        <rdf:type rdf:resource="&untitled-ontology-7;City_Attractions"/>
+        <open_time rdf:datatype="&xsd;string">10:00</open_time>
+        <duration_of_visit rdf:datatype="&xsd;int">120</duration_of_visit>
+        <close_time rdf:datatype="&xsd;string">17:00</close_time>
+        <entry_fee rdf:datatype="&xsd;int">35</entry_fee>
+        <has_address rdf:datatype="&xsd;string">411 Elm St, Dallas, TX, 75202</has_address>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2015/3/untitled-ontology-7#Verizon_Theatre -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-7;Verizon_Theatre">
+        <rdf:type rdf:resource="&untitled-ontology-7;City_Attractions"/>
+        <has_address rdf:datatype="&xsd;string">1001 Performance PL, Grand Praire, Texas, 75050</has_address>
+        <open_time rdf:datatype="&xsd;string">10:00</open_time>
+        <close_time rdf:datatype="&xsd;string">17:00</close_time>
+        <duration_of_visit rdf:datatype="&xsd;int">180</duration_of_visit>
+        <entry_fee rdf:datatype="&xsd;int">45</entry_fee>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
+

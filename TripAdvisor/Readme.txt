@@ -2,5 +2,5 @@
 Instructions to run the project:
 ---------------------------------
 
-	javac TripAdvisir.java
+	javac TripAdvisor.java
 	java TripAdvisor
